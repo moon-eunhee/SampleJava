@@ -14,6 +14,10 @@ on:
           - PRD
 
 jobs:
+  Explore-GitHub-Actions:
+    # You need to use the INSTALLATION_NAME from the previous step
+    runs-on: edu06-arc-runner-set
+ 
   build:
     # runs-on: ubuntu-latest   # Github-hosted
     #runs-on: self-hosted           # VM
