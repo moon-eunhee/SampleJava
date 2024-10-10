@@ -17,7 +17,7 @@ jobs:
   build:
     # runs-on: ubuntu-latest   # Github-hosted
     #runs-on: self-hosted           # VM
-     runs-on: edu06-arc-runner-set  # AKS
+    runs-on: edu06-arc-runner-set  # AKS
 
     env:
       IMAGE_NAME: ${{ vars.ACR_NAME }}.azurecr.io/${{ vars.EDUUSERID }}/samplejava
